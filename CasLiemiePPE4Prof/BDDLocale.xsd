@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BDDLocale" targetNamespace="http://tempuri.org/BDDLocale.xsd" xmlns:mstns="http://tempuri.org/BDDLocale.xsd" xmlns="http://tempuri.org/BDDLocale.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BDDLocale" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BDDLocale" msprop:Generator_UserDSName="BDDLocale">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VISITE" msprop:Generator_TableClassName="VISITEDataTable" msprop:Generator_TableVarName="tableVISITE" msprop:Generator_RowChangedName="VISITERowChanged" msprop:Generator_TablePropName="VISITE" msprop:Generator_RowDeletingName="VISITERowDeleting" msprop:Generator_RowChangingName="VISITERowChanging" msprop:Generator_RowEvHandlerName="VISITERowChangeEventHandler" msprop:Generator_RowDeletedName="VISITERowDeleted" msprop:Generator_RowClassName="VISITERow" msprop:Generator_UserTableName="VISITE" msprop:Generator_RowEvArgName="VISITERowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SOIN" msprop:Generator_TableClassName="SOINDataTable" msprop:Generator_TableVarName="tableSOIN" msprop:Generator_RowChangedName="SOINRowChanged" msprop:Generator_TablePropName="SOIN" msprop:Generator_RowDeletingName="SOINRowDeleting" msprop:Generator_RowChangingName="SOINRowChanging" msprop:Generator_RowEvHandlerName="SOINRowChangeEventHandler" msprop:Generator_RowDeletedName="SOINRowDeleted" msprop:Generator_RowClassName="SOINRow" msprop:Generator_UserTableName="SOIN" msprop:Generator_RowEvArgName="SOINRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TYPESOIN" msprop:Generator_TableClassName="TYPESOINDataTable" msprop:Generator_TableVarName="tableTYPESOIN" msprop:Generator_RowChangedName="TYPESOINRowChanged" msprop:Generator_TablePropName="TYPESOIN" msprop:Generator_RowDeletingName="TYPESOINRowDeleting" msprop:Generator_RowChangingName="TYPESOINRowChanging" msprop:Generator_RowEvHandlerName="TYPESOINRowChangeEventHandler" msprop:Generator_RowDeletedName="TYPESOINRowDeleted" msprop:Generator_RowClassName="TYPESOINRow" msprop:Generator_UserTableName="TYPESOIN" msprop:Generator_RowEvArgName="TYPESOINRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PATIENT" msprop:Generator_TableClassName="PATIENTDataTable" msprop:Generator_TableVarName="tablePATIENT" msprop:Generator_RowChangedName="PATIENTRowChanged" msprop:Generator_TablePropName="PATIENT" msprop:Generator_RowDeletingName="PATIENTRowDeleting" msprop:Generator_RowChangingName="PATIENTRowChanging" msprop:Generator_RowEvHandlerName="PATIENTRowChangeEventHandler" msprop:Generator_RowDeletedName="PATIENTRowDeleted" msprop:Generator_RowClassName="PATIENTRow" msprop:Generator_UserTableName="PATIENT" msprop:Generator_RowEvArgName="PATIENTRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PERSONNEDECONFIANCE" msprop:Generator_TableClassName="PERSONNEDECONFIANCEDataTable" msprop:Generator_TableVarName="tablePERSONNEDECONFIANCE" msprop:Generator_RowChangedName="PERSONNEDECONFIANCERowChanged" msprop:Generator_TablePropName="PERSONNEDECONFIANCE" msprop:Generator_RowDeletingName="PERSONNEDECONFIANCERowDeleting" msprop:Generator_RowChangingName="PERSONNEDECONFIANCERowChanging" msprop:Generator_RowEvHandlerName="PERSONNEDECONFIANCERowChangeEventHandler" msprop:Generator_RowDeletedName="PERSONNEDECONFIANCERowDeleted" msprop:Generator_RowClassName="PERSONNEDECONFIANCERow" msprop:Generator_UserTableName="PERSONNEDECONFIANCE" msprop:Generator_RowEvArgName="PERSONNEDECONFIANCERowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="INFIRMIERE" msprop:Generator_TableClassName="INFIRMIEREDataTable" msprop:Generator_TableVarName="tableINFIRMIERE" msprop:Generator_RowChangedName="INFIRMIERERowChanged" msprop:Generator_TablePropName="INFIRMIERE" msprop:Generator_RowDeletingName="INFIRMIERERowDeleting" msprop:Generator_RowChangingName="INFIRMIERERowChanging" msprop:Generator_RowEvHandlerName="INFIRMIERERowChangeEventHandler" msprop:Generator_RowDeletedName="INFIRMIERERowDeleted" msprop:Generator_RowClassName="INFIRMIERERow" msprop:Generator_UserTableName="INFIRMIERE" msprop:Generator_RowEvArgName="INFIRMIERERowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PERSONNE" msprop:Generator_TableClassName="PERSONNEDataTable" msprop:Generator_TableVarName="tablePERSONNE" msprop:Generator_RowChangedName="PERSONNERowChanged" msprop:Generator_TablePropName="PERSONNE" msprop:Generator_RowDeletingName="PERSONNERowDeleting" msprop:Generator_RowChangingName="PERSONNERowChanging" msprop:Generator_RowEvHandlerName="PERSONNERowChangeEventHandler" msprop:Generator_RowDeletedName="PERSONNERowDeleted" msprop:Generator_RowClassName="PERSONNERow" msprop:Generator_UserTableName="PERSONNE" msprop:Generator_RowEvArgName="PERSONNERowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ADMINISTRATEUR" msprop:Generator_TableClassName="ADMINISTRATEURDataTable" msprop:Generator_TableVarName="tableADMINISTRATEUR" msprop:Generator_RowChangedName="ADMINISTRATEURRowChanged" msprop:Generator_TablePropName="ADMINISTRATEUR" msprop:Generator_RowDeletingName="ADMINISTRATEURRowDeleting" msprop:Generator_RowChangingName="ADMINISTRATEURRowChanging" msprop:Generator_RowEvHandlerName="ADMINISTRATEURRowChangeEventHandler" msprop:Generator_RowDeletedName="ADMINISTRATEURRowDeleted" msprop:Generator_RowClassName="ADMINISTRATEURRow" msprop:Generator_UserTableName="ADMINISTRATEUR" msprop:Generator_RowEvArgName="ADMINISTRATEURRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CATEGSOIN" msprop:Generator_TableClassName="CATEGSOINDataTable" msprop:Generator_TableVarName="tableCATEGSOIN" msprop:Generator_RowChangedName="CATEGSOINRowChanged" msprop:Generator_TablePropName="CATEGSOIN" msprop:Generator_RowDeletingName="CATEGSOINRowDeleting" msprop:Generator_RowChangingName="CATEGSOINRowChanging" msprop:Generator_RowEvHandlerName="CATEGSOINRowChangeEventHandler" msprop:Generator_RowDeletedName="CATEGSOINRowDeleted" msprop:Generator_RowClassName="CATEGSOINRow" msprop:Generator_UserTableName="CATEGSOIN" msprop:Generator_RowEvArgName="CATEGSOINRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="INDISPONIBILITE" msprop:Generator_TableClassName="INDISPONIBILITEDataTable" msprop:Generator_TableVarName="tableINDISPONIBILITE" msprop:Generator_RowChangedName="INDISPONIBILITERowChanged" msprop:Generator_TablePropName="INDISPONIBILITE" msprop:Generator_RowDeletingName="INDISPONIBILITERowDeleting" msprop:Generator_RowChangingName="INDISPONIBILITERowChanging" msprop:Generator_RowEvHandlerName="INDISPONIBILITERowChangeEventHandler" msprop:Generator_RowDeletedName="INDISPONIBILITERowDeleted" msprop:Generator_RowClassName="INDISPONIBILITERow" msprop:Generator_UserTableName="INDISPONIBILITE" msprop:Generator_RowEvArgName="INDISPONIBILITERowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TEMOIGNAGE" msprop:Generator_TableClassName="TEMOIGNAGEDataTable" msprop:Generator_TableVarName="tableTEMOIGNAGE" msprop:Generator_RowChangedName="TEMOIGNAGERowChanged" msprop:Generator_TablePropName="TEMOIGNAGE" msprop:Generator_RowDeletingName="TEMOIGNAGERowDeleting" msprop:Generator_RowChangingName="TEMOIGNAGERowChanging" msprop:Generator_RowEvHandlerName="TEMOIGNAGERowChangeEventHandler" msprop:Generator_RowDeletedName="TEMOIGNAGERowDeleted" msprop:Generator_RowClassName="TEMOIGNAGERow" msprop:Generator_UserTableName="TEMOIGNAGE" msprop:Generator_RowEvArgName="TEMOIGNAGERowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COMMENTAIRE" msprop:Generator_TableClassName="COMMENTAIREDataTable" msprop:Generator_TableVarName="tableCOMMENTAIRE" msprop:Generator_RowChangedName="COMMENTAIRERowChanged" msprop:Generator_TablePropName="COMMENTAIRE" msprop:Generator_RowDeletingName="COMMENTAIRERowDeleting" msprop:Generator_RowChangingName="COMMENTAIRERowChanging" msprop:Generator_RowEvHandlerName="COMMENTAIRERowChangeEventHandler" msprop:Generator_RowDeletedName="COMMENTAIRERowDeleted" msprop:Generator_RowClassName="COMMENTAIRERow" msprop:Generator_UserTableName="COMMENTAIRE" msprop:Generator_RowEvArgName="COMMENTAIRERowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

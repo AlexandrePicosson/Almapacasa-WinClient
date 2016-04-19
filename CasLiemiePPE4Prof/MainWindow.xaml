@@ -1,0 +1,72 @@
+﻿<Window x:Class="CasLiemiePPE4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Closed="Window_Closed" BorderBrush="#FF7F91F2">
+    <Grid>
+        <TabControl Name="onglets" TabStripPlacement="Top" Margin="-2,0,2,0" >
+            <TabItem Name="Date" Header="Choisir une date">
+                <StackPanel Height="294" Width="494">
+                    <Button Content="_OK" Click="essaiVisite" />
+                    <Calendar 
+                        Height="162" 
+                        Name="Calendrier" 
+                        Width="178" 
+                        DisplayMode="Month" 
+                        SelectedDatesChanged="SelectionDate" 
+                        MaxWidth="268" 
+                        MaxHeight="172" 
+                        HorizontalContentAlignment="Center" 
+                        BorderBrush="#FFADADF5" 
+                        Margin="0,25,0,0" />
+                    
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Name="RDVJour" Header="Rendez vous du jour">
+                <DataGrid 
+                    AutoGenerateColumns="True" 
+                    Height="200" 
+                    Name="DGJour" 
+                    IsReadOnly="True" 
+                    Width="344" 
+                    HorizontalContentAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    CanUserAddRows="False" 
+                    CanUserDeleteRows="False" SelectionChanged="DGJour_SelectionChanged" />
+
+            </TabItem>
+
+            <TabItem Name="RDVSemaine" Header="Planning de la semaine">
+                <DataGrid 
+                    AutoGenerateColumns="True" 
+                    Height="200" 
+                    IsReadOnly="True" 
+                    HorizontalAlignment="Center" 
+                    Name="DGSemaine" 
+                    Width="344" 
+                    HorizontalContentAlignment="Center" SelectionChanged="DGSemaine_SelectionChanged" />
+
+            </TabItem>
+
+            <TabItem Name="Autres" Header="Autres">
+                <DataGrid 
+                    AutoGenerateColumns="true" 
+                    Height="226"  
+                    AlternatingRowBackground="#cce6ff" 
+                    Name="dataGrid1" 
+                    Width="347" />
+            </TabItem>
+
+            <TabItem Name="Visite" Visibility="Visible" Header="Visite">
+                <StackPanel Width="498" Orientation="Vertical">
+                    <Label Height="38" Margin="0,38,0,0" Name="lblPatientVisite" Width="903" />
+                    <Label Height="38" Margin="0,0,0,0" Name="lblDateVisite" Width="903" />
+
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+ 
+   
+
+</Window>
